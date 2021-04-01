@@ -5,7 +5,7 @@ Session::checkLogin();
 include_once '../lib/Main.php';
 include_once '../lib/Database.php';
 include_once '../lib/Session.php';
-include_once '../config/config.php';
+require_once $_SERVER['DOCUMENT_ROOT']. '/config/Config.php';
 
 $db = new Database();
 

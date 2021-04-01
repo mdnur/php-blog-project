@@ -93,8 +93,7 @@ if (isset($_GET['editid'])) {
                                 </div>
                                 <div class="form-group">
                                     <label for="Author">Author</label>
-                                    <input type="text" class="form-control"  value="<?php echo $value['author'];?>" name="author">
-                                    <input type="text" class="form-control"  value="<?php echo $value[''];?>" name="author">
+                                    <input type="text" class="form-control"  value="<?php echo $value['author'];?>" name="author" disabled >
                                 </div>
                                 <button type="submit" class="btn btn-outline btn-success" name="update">Update</button>
                             </form>

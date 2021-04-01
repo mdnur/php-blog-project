@@ -83,8 +83,9 @@ header("Cache-Control: max-age=2592000");
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!--tiny mice-->
-    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-    <script>tinymce.init({
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
      selector:'.tiny-mice',
       height: 230,
       plugins: 'link image code',
@@ -93,7 +94,10 @@ header("Cache-Control: max-age=2592000");
       content_css: [
         '//fast.fonts.net/cssapi/e6dc9b99-64fe-4292-ad98-6974f93cd2a2.css',
         '//www.tinymce.com/css/codepen.min.css'
-  ] });</script>
+  ] });
+</script>
+
+
 
 </head>
 

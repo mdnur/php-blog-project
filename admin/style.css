@@ -1,0 +1,12 @@
+.Form-auto {
+    margin: 0 auto;
+    width: 250px;
+}
+.big {
+    padding: 14px;
+    text-align: center;
+}
+.bg-danger {
+    background-color: #f2dede;
+    padding: 15px;
+}
